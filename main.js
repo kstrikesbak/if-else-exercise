@@ -1,6 +1,6 @@
 function isItLong(str) {
   if (str.length>20) {
-    return "That's a long string";
+    return "That's a long string!";
   }
 }
 
@@ -20,7 +20,7 @@ function isItShort(str) {
 
 function howLongIsMyString(str) {
   if (str.length > 20) {
-    return "That's a long string";
+    return "That's a long string!";
   }
   else if (str.length >= 10 && str.length <= 20) {
     return "That's a regular sized string!";

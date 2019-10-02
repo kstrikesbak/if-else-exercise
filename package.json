@@ -1,7 +1,7 @@
 {
   "name": "testing-template-repo",
   "version": "1.0.0",
-  "description": "",
+  "description": "Function Specifications:",
   "main": "index.js",
   "scripts": {
     "test": "jest --watch-all"
@@ -11,5 +11,13 @@
   "license": "ISC",
   "devDependencies": {
     "jest": "^24.9.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kstrikesbak/if-else-exercise.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kstrikesbak/if-else-exercise/issues"
+  },
+  "homepage": "https://github.com/kstrikesbak/if-else-exercise#readme"
 }
