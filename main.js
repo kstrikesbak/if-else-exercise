@@ -31,11 +31,19 @@ function howLongIsMyString(str) {
 
 }
 
-function instructorHeight() {
-
+function instructorHeight(str) {
+  if (str === "Colin" || "colin") {
+    return "62";
+  }
+  else if (str == "Mesuara") {
+    return "67";
+  }
+  else {
+    return "I don't know that instructor!"
+  }
 }
 
-
+console.log(instructorHeight("Fred"))
 
 
 module.exports = {
