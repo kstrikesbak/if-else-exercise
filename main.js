@@ -1,5 +1,7 @@
-function isItLong() {
-
+function isItLong(str) {
+  if (str.length>20) {
+    return "That's a long string"
+  }
 }
 
 function isItMedium() {
